@@ -1,0 +1,12 @@
+FORM FORMV 
+	AT 6, 14 PUT VOPROS.QUEST  USING "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr" 
+	AT 9, 14 PUT VARR(1.00)  USING "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr" 
+	AT 10, 14 PUT VARR(2.00)  USING "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr" 
+	AT 11, 14 PUT VARR(3.00)  USING "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr" 
+	AT 12, 14 PUT VARR(4.00)  USING "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr" 
+	AT 13, 14 PUT VARR(5.00)  USING "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr" 
+	AT 18, 14 PUT "\130\128\152 \142\146\130\133\146: "  
+	AT 1, 1 TO 30, 80 PUT "FCBA" 
+	AT 18, 38 GET ANS  NUM USING "d" 
+	AT 18, 38 PUT ANS  USING "d" 
+ENDFORM 
